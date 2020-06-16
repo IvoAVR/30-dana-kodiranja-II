@@ -123,8 +123,24 @@ services
 /***************
 products
 ***************/
-
-
+.products {
+    padding: var(--padding);
+    background: var(--lightgray);
+    text-align: center;
+}
+.products img {
+    width: 100%;
+    height: auto;
+}
+.products article {
+    width: 25%;
+    float: left;
+    padding: 30px;
+}
+.products h5 {
+    font-size: 1.5rem;
+    padding: 20px 0;
+}
 /***************
 footer
 ***************/
