@@ -144,7 +144,21 @@ products
 /***************
 footer
 ***************/
-
+footer {
+    padding: var(--padding);
+    background: var(--gray);
+    color: var(--white);
+    text-align: center;
+}
+footer .fa-heart {
+    color: red;
+}
+footer .fab {
+    background: var(--orange);
+    padding: 10px;
+    color: var(--white);
+    margin: 10px;
+}
 
 
 /***********************
