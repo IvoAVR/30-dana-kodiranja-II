@@ -21,6 +21,15 @@ body {
 a {
     text-decoration: none;
 }
+.container {
+    width: 80%;
+    margin: auto;
+}
+.container::after {
+    content: "";
+    clear: both;
+    display: block;
+}
 /***************
 header
 ***************/
