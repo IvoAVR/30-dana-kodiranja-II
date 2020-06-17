@@ -195,3 +195,52 @@ footer i {
 footer .copy {
     padding: 50px;
 }
+
+
+/***************
+R E S P O N S I V E
+***************/
+@media(max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    header nav ul li a {
+        padding: 2px;
+        font-size: .9rem;
+        letter-spacing: 1px;
+    }
+    header h1 {
+        padding-top: 40px;
+        font-size: 2rem;
+    }
+    header img {
+        border-top: 15px solid rgba(255,255,255,.5);
+        border-right: 15px solid rgba(255,255,255,.5);
+        border-left: 15px solid rgba(255,255,255,.5);
+    }
+    .services article,
+    .portfolio article {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .portfolio h2,
+    .contact h2,
+    footer h2 {
+        font-size: 2rem;
+    }
+    .contact form {
+        width: 90%;
+    }
+    footer i {
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+
+
+
+
+
+
+
