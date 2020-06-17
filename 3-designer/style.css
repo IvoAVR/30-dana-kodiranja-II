@@ -39,6 +39,9 @@ header img {
     width: 100%;
     height: auto;
     display: block;
+    border-top: 30px solid rgba(255,255,255,.5);
+    border-right: 30px solid rgba(255,255,255,.5);
+    border-left: 30px solid rgba(255,255,255,.5);
 }
 header nav {
     padding-top: 30px;
