@@ -29,6 +29,18 @@ h1, h2, h3, h4, h5 {
     content: "";
     clear: both;
 }
+button {
+    background: var(--blue);
+    padding: 15px 30px;
+    color: var(--white);
+    font-size: 1.1rem;
+    border: none;
+}
+button:hover {
+    background: var(--gray);
+    cursor: pointer;
+    transition: .4s ease;
+}
 /*****************
 header
 *****************/
@@ -75,7 +87,26 @@ hgroup h5 {
 /*****************
 intro
 *****************/
-
+.intro {
+    padding: var(--padding);
+}
+.intro article {
+    width: 33%;
+    float: left;
+    padding: 50px;
+    border-right: 1px solid var(--gray);
+}
+.intro article:last-child {
+    border: none;
+}
+.intro h2 {
+    color: var(--blue);
+    padding-bottom: 30px;
+}
+.intro p {
+    line-height: 1.7;
+    padding-bottom: 30px;
+}
 /*****************
 team
 *****************/
