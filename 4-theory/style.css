@@ -110,7 +110,11 @@ intro
 /*****************
 team
 *****************/
-
+.team {
+    padding: var(--padding);
+    text-align: center;
+    background: var(--blue);
+}
 /*****************
 blog
 *****************/
