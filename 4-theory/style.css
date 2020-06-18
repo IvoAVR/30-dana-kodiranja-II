@@ -20,11 +20,58 @@ body {
 h1, h2, h3, h4, h5 {
     font-weight: 100;
 }
-
+.container {
+    width: 80%;
+    margin: auto;
+}
+.container::after {
+    display: block;
+    content: "";
+    clear: both;
+}
 /*****************
 header
 *****************/
-
+header {
+    border-top: 7px solid var(--blue);
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.logo {
+    float: left;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 200;
+    color: var(--white);
+}
+nav {
+    padding-top: 40px;
+}
+nav ul {
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+    padding-left: 70px;
+}
+hgroup {
+    text-align: center;
+    padding: 150px 0 230px 0
+}
+hgroup h1 {
+    font-size: 4rem;
+    color: var(--white);
+    padding-bottom: 30px
+}
+hgroup h5 {
+    color: var(--lightgray);
+    font-size: 1.2rem;
+}
 /*****************
 intro
 *****************/
