@@ -185,8 +185,22 @@ blog
 /*****************
 footer
 *****************/
-
-
+footer {
+    text-align: center;
+}
+footer .container {
+    padding: 50px 0;
+    border-top: 1px solid var(--lightgray);
+}
+footer a {
+    color: var(--blue);
+    font-size: 2.5rem;
+    margin: 0 30px;
+}
+footer a:hover {
+    color: var(--gray);
+    transition: .4s ease;
+}
 /*****************
 responsive
 *****************/
