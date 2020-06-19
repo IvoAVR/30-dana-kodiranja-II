@@ -101,8 +101,22 @@ header button:hover {
 /************
 about
 ************/
-
-
+.about {
+    color: var(--white);
+}
+.about article {
+    width: 50%;
+    float: left;
+    padding: 60px;
+}
+.about i {
+    color: var(--yellow);
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.about h2, .about p {
+    margin-bottom: 20px;
+}
 /************
 products
 ************/
