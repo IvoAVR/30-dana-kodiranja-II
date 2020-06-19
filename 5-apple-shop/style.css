@@ -295,18 +295,16 @@ R E S P O N S I V E
         padding: 40px;
     }
     .products .row1 article:nth-child(1),
-    .products .row3 article:nth-child(1) {
-        display: none;
-    }
-    .products .row1 article:nth-child(2),
-    .products .row3 article:nth-child(2) 
- {
-        width: 100%;
-    }
+    .products .row3 article:nth-child(1),
     .products .row2 article:nth-child(2) {
         display: none;
     }
+    .products .row1 article:nth-child(2),
+    .products .row3 article:nth-child(2),
     .products .row2 article:nth-child(1) {
+        width: 100%;
+    }
+     {
         width: 100%;
     }
     .cta h2 {
