@@ -32,6 +32,21 @@ a {
 a:hover {
     transition: var(--transition);
 }
+button {
+    padding: 15px 30px;
+    border: 1px solid var(--bela);
+    background: transparent;
+    font-size: 1rem;
+    color: var(--bela);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+button:hover {
+    cursor: pointer;
+    background: var(--bela);
+    color: var(--tamnoSiva);
+    transition: var(--transition);
+}
 /************
 nav
 ************/
@@ -53,6 +68,30 @@ nav a {
 nav a:hover {
     color: var(--svetloSiva);
 }
-
+/************
+header
+************/
+header {
+    background-image:linear-gradient(rgba(29, 82, 124,.8), rgba(253, 127, 69, .8)), url(img/baloon.jpg);
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--bela);
+}
+header h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+header h1 span {
+    font-style: italic;
+    font-weight: 400;
+}
+header p {
+    font-size: 1.2rem;
+    padding: 30px 0;
+}
 
 
