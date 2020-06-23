@@ -79,6 +79,24 @@ nav ul li a {
     font-weight: 600;
     transition: var(--transition);
 }
+/********************
+header
+********************/
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/header-bottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: auto;
+    text-align: center;
+}
+header img:first-child {
+    width: 20%;
+    height: auto;
+}
 
 
 
