@@ -4,6 +4,7 @@
     --fontPrimary:'Inter', sans-serif;
     --fontColor: #20123a;
     --plava: #0060df;
+    --buttonHover: #0250bb;
     --tamnoPlava: #08204e;
     --bela: #fff;
     --transition: .4s ease;
@@ -96,8 +97,47 @@ header {
 header img:first-child {
     width: 20%;
     height: auto;
+    padding-top: 100px
 }
-
+header h2 {
+    font-size: 3rem;
+    padding: 40px 0;
+}
+header p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+header input[type="submit"] {
+    border: 2px solid var(--plava);
+    background: var(--plava);
+    font-size: 1.1rem;
+    padding: 15px 30px;
+    color: var(--bela);
+}
+header input[type="submit"]:hover {
+    cursor: pointer;
+    border: 2px solid var(--buttonHover);
+    background: var(--buttonHover);
+    transition: var(--transition);
+}
+header .privacy {
+    text-decoration: none;
+    font-size: .8rem;
+    margin-top: 20px;
+    color: var(--fontColor);
+    font-weight: 300;
+}
+header .privacy:hover {
+    text-decoration: underline;
+}
+header .learnMore {
+    font-size: .8rem;
+    margin-top: 40px;
+    font-weight: 300;
+    padding-bottom: 120px;
+}
 
 
 
