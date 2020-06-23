@@ -26,7 +26,7 @@ body {
     margin-top: 30px;
 }
 .container {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 ul {
@@ -207,5 +207,8 @@ two
     font-weight: 600;
     font-size: .9rem;
 }
+/********************
+three
+********************/
 
 
