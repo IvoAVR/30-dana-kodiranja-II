@@ -243,5 +243,67 @@ three
 .three article a:hover {
     text-decoration: none;
 }
+/********************
+four
+********************/
+.four {
+    background-image: url(img/newsletter.png);
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0;
+}
+.four .row {
+    width: 70%;
+    margin: auto;
+    background: var(--bela);
+    border-radius: 5px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.four .row article:first-child {
+    flex: 10;
+}
+.four .row article:first-child img {
+    width: 10%;
+    float: left;
+    margin-right: 40px;
+}
+.four .row article:first-child h3 {
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.four .row article:first-child p {
+    font-weight: 300;
+}
+.four .row article:last-child {
+    flex: 2;
+}
+.four .row article:last-child form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.four .row article:last-child form input {
+    flex: 0 0 100%;
+}
+.four .row article:last-child form input[type="email"] {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+.four .row article:last-child form input[type="submit"] {
+    border: 2px solid var(--plava);
+    background: var(--plava);
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: var(--bela);
+}
+.four .row article:last-child form input[type="submit"]:hover {
+    background: var(--buttonHover);
+    transition: var(--transition);
+}
+
 
 
