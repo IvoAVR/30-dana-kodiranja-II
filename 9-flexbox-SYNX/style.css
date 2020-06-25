@@ -33,7 +33,9 @@ button:hover {
     transition: .3s ease;
     cursor: pointer;
 }
-/* header */
+/*****************
+header 
+*****************/
 header {
     background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/header.jpg);
     height: 100vh;
@@ -98,6 +100,9 @@ hgroup p {
     font-size: 1.2rem;
     padding: 20px 0;
 }
+/*****************
+one 
+*****************/
 
 
 
