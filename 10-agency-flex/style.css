@@ -319,8 +319,38 @@ gallery
     background-position: center;
     background-size: cover;
 }
-
-
-
-
-
+/*****************
+contact
+*****************/
+.contact {
+    padding: 50px 0;
+    flex-wrap: wrap;
+    display: flex;
+}
+.contact .col {
+    flex: 1;
+}
+.contact img {
+    width: 100%;
+    box-shadow: 0 0 20px var(--gray);
+    border-radius: 30px;
+}
+.contact .col:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+input, textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+form button {
+    width: 300px;
+}
