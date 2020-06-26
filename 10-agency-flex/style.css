@@ -16,6 +16,7 @@ body {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     width: 100%;
+    line-height: 1.6;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
@@ -27,7 +28,22 @@ h1, h2, h3, h4, h5, h6 {
 ul {
     list-style: none;
 }
-/* header */
+button {
+    background: transparent;
+    border: 1px solid var(--black);
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+button:hover {
+    cursor: pointer;
+    transition: var(--transition);
+    background: var(--pink);
+}
+/************
+header 
+************/
 header {
     background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/header.jpg);
     background-position: center;
@@ -79,3 +95,52 @@ header hgroup h5 {
     font-size: 1.2rem;
     font-style: italic;
 }
+/************
+about 
+************/
+.about {
+    display: flex;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+.about img {
+    width: 100%;
+    box-shadow: 0 0 20px var(--gray);
+    border-radius: 30px;
+}
+.about article {
+    flex: 1;
+}
+.about article:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+}
+.about article:first-child h2 {
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.about article:first-child h4 {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+.about article:first-child hr {
+    height: 2px;
+    background: var(--pink);
+    width: 20%;
+    border: none;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
