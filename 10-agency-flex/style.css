@@ -235,6 +235,22 @@ services
     color: var(--pink);
     font-size: 1.6rem;
 }
-
-
-
+/*****************
+gallery hgroup
+*****************/
+.gallery-hgroup {
+    padding: 50px 0;
+}
+.gallery-hgroup h2 {
+    font-size: 3rem;
+}
+.gallery-hgroup h4 {
+    font-size: 1.3rem;
+}
+.gallery-hgroup hr {
+    height: 2px;
+    background: var(--pink);
+    width: 20%;
+    margin: 20px 0;
+    border: none;
+}
