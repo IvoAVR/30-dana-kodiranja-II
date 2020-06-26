@@ -133,10 +133,23 @@ about
     border: none;
     margin-bottom: 20px;
 }
-
-
-
-
+/************
+counter 
+************/
+.counter {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    justify-content: space-around;
+}
+.counter h2 {
+    font-size: 3rem;
+}
+.counter hr {
+    margin: 20px auto;
+    width: 70%;
+}
 
 
 
