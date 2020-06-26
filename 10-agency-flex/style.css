@@ -354,3 +354,42 @@ input, textarea {
 form button {
     width: 300px;
 }
+/*****************
+footer
+*****************/
+footer {
+    background: var(--lightgray);
+    padding: 50px 0;
+    text-align: center;
+}
+footer h2 a {
+    color: var(--pink);
+    text-decoration: none;
+}
+footer h4  {
+    padding: 10px;
+}
+/*****************
+bottom bar
+*****************/
+.bottom-bar {
+    background: lightgray;
+    padding: 50px 0;
+}
+.bottom-bar .container {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-bar .icons {
+    display: flex;
+}
+.bottom-bar .icons li a {
+    margin-right: 50px;
+    font-size: 1.3rem;
+}
+.bottom-bar i {
+    color: var(--pink);
+}
+
+
+
