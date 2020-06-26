@@ -188,8 +188,7 @@ team
     margin-top: 20px;
     margin-bottom: 20px;
     position: relative;
-    right: -300px;
-    
+    right: -300px;  
 }
 .team .right .full .text {
     display: flex;
@@ -391,5 +390,81 @@ bottom bar
     color: var(--pink);
 }
 
-
+/*****************
+responsive
+*****************/
+@media(max-width:768px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav ul {
+        justify-content: center;
+    }
+    nav ul li a {
+        margin: 10px;
+    }
+    header hgroup h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    header hgroup h5 {
+        text-align: center;
+    }
+    .about article {
+        flex: 0 0 100%;
+    }
+    .about article:first-child {
+        padding: 20px;
+    }
+    .about article:first-child h2 {
+        font-size: 2rem;
+    }
+    .team .clean {
+        display: none;
+    }
+    .team .full {
+        flex: 0 0 100%;
+    }
+    .team .row {
+        margin-bottom: 30px;
+    }
+    .team .left .full .text hr {
+        right: -116px;
+    }
+    .team .right .full .text hr {
+        left: -76px;
+    }
+    .services .col1,.services .col2, .services .col3 {
+        flex: 0 0 100%;
+    }
+    .gallery .col {
+        flex: 0 0 100%;
+    }
+    .contact .col {
+        flex: 0 0 100%;
+    }
+    form {
+        padding: 0px;
+    }
+    .bottom-bar .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .bottom-bar .icons  {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    form input{
+        width: 90%;
+        margin:  10px auto;
+    }   
+    form textarea{
+        width: 90%;
+        margin: auto;
+    }
+    .contact img {
+        margin-top: 30px;
+    }
+}
 
