@@ -55,6 +55,9 @@ h2::after {
 .carousel-caption {
     top: 35%;
 }
+footer {
+    background: var(--yellow);
+}
 
 
 
