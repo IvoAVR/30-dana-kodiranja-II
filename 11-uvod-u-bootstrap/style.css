@@ -38,3 +38,7 @@ h2::after {
     margin-bottom: 0;
     border-radius: 0;
 }
+.team img {
+    border-radius: 30px;
+    box-shadow: 0 0 10px gray;
+}
