@@ -1,4 +1,6 @@
-/*   #8bc34a  */
+:root {
+    --green: #8bc34a;
+}
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap');
 * {
     margin: 0;
@@ -7,4 +9,23 @@
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
+}
+/***************  
+nav   
+***************/
+nav.bg-light {
+    background-color: white !important;
+}
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+}
+.nav-item {
+    text-transform: uppercase;
+}
+.nav-item a:hover {
+    color: var(--green) !important;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: var(--green) !important;
 }
