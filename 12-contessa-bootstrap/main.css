@@ -1,0 +1,75 @@
+:root {
+    --plava: rgb(76, 181, 245);
+    --siva: rgb(183, 184, 182);
+    --zelena: rgb(52, 103, 92);
+    --svetlo_zelena: rgb(179, 193, 0);
+    --white: #fff;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Pinyon Script', cursive;
+}
+.bg-light {
+    background: rgba(179, 193, 0,.7) !important;
+    box-shadow: 0 0 15px gray;
+}
+.btn-warning {
+    color: #212529;
+    background-color: var(--svetlo_zelena);
+    border-color: var(--svetlo_zelena);
+}
+.btn-warning:hover {
+    background-color: var(--zelena);
+    border-color: var(--zelena);
+    color: var(--white);
+}
+.border-warning {
+    border-color: var(--svetlo_zelena) !important;
+}
+.navbar-brand {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 2em;
+    font-weight: bold;
+}
+.carousel-caption {
+    top: 30%;
+}
+.akcije .card-header {
+    padding: 60px 0 30px 0;
+}
+.akcije .col-md-3 {
+    position: relative;
+}
+.akcije span {
+    position: absolute;
+    top: -45px;
+    left: 185px;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    background: rgb(179, 193, 0);
+    border-radius: 50%;
+}
+footer a {
+    color: #333;
+}
+footer a:hover {
+    color: #555;
+}
+header {
+    background-image: url(images/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h2 {
+    background: rgba(179, 193, 0,.5);
+    padding: 30px;
+    border-radius: 30px;
+}
