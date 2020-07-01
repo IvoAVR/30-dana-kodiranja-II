@@ -77,6 +77,15 @@ featured-services
     color: var(--green);
     font-size: 2rem;
 }
+/***************  
+new-hairstyle
+***************/
+.new-hairstyle .col-md-5 {
+    background: white;
+    height: 50vh;
+    padding: 50px;
+    margin: 120px 0 0 -80px;
+}
 
 
 
