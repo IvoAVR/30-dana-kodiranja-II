@@ -23,6 +23,9 @@ h5,
 h6 {
   font-family: "Josefin Sans", serif;
 }
+.bg-light {
+    background-color: rgba(234, 207, 210,.8) !important;
+}
 /*************************
 nav
 *************************/
@@ -38,7 +41,7 @@ nav
     font-weight: 700; 
 }
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-    background-color: var(--violet);
+    background-color: var(--violet) !important;
     color: var(--cream);
 }
 .navbar-expand-lg .navbar-nav .nav-link {
