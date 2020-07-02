@@ -90,8 +90,31 @@ services
     transition: 0.6s ease;
 }
 /*************************
-services
+skills
 *************************/
-
-
-
+.skills {
+    background-image: linear-gradient(to left, rgba(107, 78, 113,.95), rgba(58, 68, 84,.95)), url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skills h2 {
+    font-size: 3rem;
+}
+.skills h2 span {
+    color: var(--cream);
+    text-shadow: 0 0 5px var(--black);
+    font-style: italic;
+}
+.skills ul li {
+    line-height: 1.7;
+    font-size: 20px;
+}
+.skills .fa-laptop-code {
+    font-size: 10rem;
+    text-shadow: 0 0 15px var(--black);
+}
