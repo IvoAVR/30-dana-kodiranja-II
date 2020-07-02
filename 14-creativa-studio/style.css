@@ -121,5 +121,27 @@ skills
 /*************************
 footer
 *************************/
-
-
+footer {
+    background: var(--cream);
+    text-align: center;
+}
+footer .underline {
+    width: 3%;
+}
+footer a {
+    color: var(--violet);
+    font-size: 2.5rem;
+    margin: 10px;
+}
+footer a:hover {
+    color: var(--gray);
+    transition-duration: 0.7s;
+}
+footer i:hover {
+    animation: footer 0.7s ease;
+}
+@keyframes footer {
+    100% {
+        transform: rotate(360deg);
+    }
+}
