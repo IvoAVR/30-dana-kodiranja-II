@@ -170,7 +170,7 @@ contact
 *************************/
 .jumbotron {
     background-image: linear-gradient(rgba(107, 78, 113,.8), rgba(255,255,255,.99)), url(img/novisad.jpg);
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -180,4 +180,9 @@ contact
     font-size: 3rem;
     font-weight: 400;
     font-style: italic;
+}
+.contact i {
+    font-size: 3rem;
+    color: var(--violet);
+    padding-bottom: 30px;
 }
