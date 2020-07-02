@@ -116,3 +116,20 @@ footer a:hover {
     color: var(--green);
     text-decoration: none;
 }
+/***************  
+responsive 
+***************/
+@media(max-width:768px) {
+    .welcome .col-md-4:nth-child(2) {
+        margin: 40px 0;
+    }
+    .featured-services h2,
+    .new-hairstyle h2,
+    .welcome h2,
+    .experience h2{
+        font-size: 2.5rem;
+    }
+    .new-hairstyle .col-md-5 {
+        margin: 40px 0 0 0px;
+    }
+}
