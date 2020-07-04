@@ -138,3 +138,36 @@ footer i:hover {
     color: var(--text);
     transition: var(--transition);
 }
+/*************
+blog
+**************/
+.blog h1  {
+    font-size: 4rem;
+    color: var(--pink);
+}
+.blog .lead  {
+    font-size: 1.4rem;
+    color: var(--pink);
+}
+.blog .jumbotron {
+    background: white !important;
+    margin-bottom: 0 !important;
+}
+./*************
+blog
+**************/
+.postovi .jagoda {
+    background-image: url(img/jagoda.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+.postovi .jagoda {
+    background-image: url(img/jagoda.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+
+
