@@ -3,7 +3,7 @@
     --orange: #f49c42;
     --pink: #e04067;
     --transition: .4s ease;
-    --text: #444;
+    --text: #222;
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -89,4 +89,15 @@ about
 **************/
 .about h5, .about h3 {
     color: var(--pink);
+}
+/*************
+watermelon
+**************/
+.watermelon {
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(img/watermellon.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
 }
