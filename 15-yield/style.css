@@ -3,13 +3,26 @@
     --orange: #f49c42;
     --pink: #e04067;
     --transition: .4s ease;
+    --text: #444;
 }
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    color: var(--text);
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
+}
+.btn-warning {
+    background: var(--orange);
+    border: 1px solid var(--orange);
+    color: white;
+    border-radius: 0;
+}
+.btn-warning:hover {
+    background: var(--pink);
+    color: white;
+    border: 1px solid var(--pink);
 }
 /*************
 navigacija
@@ -53,4 +66,18 @@ nav.bg-light {
 .navigacija i:hover {
     color: var(--pink);
     transition: var(--transition);
+}
+.carousel-caption {
+    top: 25%;
+}
+.carousel-caption h5  {
+    color: var(--pink);
+    font-size: 2rem;
+}
+.carousel-caption .lead  {
+    color: var(--orange);
+    font-size: 2rem;
+}
+.carousel-caption p  {
+    color: var(--text);
 }
