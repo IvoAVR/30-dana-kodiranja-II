@@ -67,6 +67,9 @@ nav.bg-light {
     color: var(--pink);
     transition: var(--transition);
 }
+/*************
+slider
+**************/
 .carousel-caption {
     top: 25%;
 }
@@ -80,4 +83,10 @@ nav.bg-light {
 }
 .carousel-caption p  {
     color: var(--text);
+}
+/*************
+about
+**************/
+.about h5, .about h3 {
+    color: var(--pink);
 }
