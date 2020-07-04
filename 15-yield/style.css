@@ -100,4 +100,24 @@ watermelon
     height: 60vh;
     display: flex;
     align-items: center;
+    background-attachment: fixed;
+}
+/*************
+team
+**************/
+.team h2 {
+    color: var(--pink);
+    padding-bottom: 20px;
+    font-size: 3rem;
+}
+.team h4 {
+    background: var(--pink);
+    padding: 5px;
+    color: white;
+}
+.team p {
+    padding: 20px 0 0 0;
+}
+.team img {
+    box-shadow: 0 0 20px var(--text);
 }
