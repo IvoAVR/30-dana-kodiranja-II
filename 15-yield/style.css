@@ -121,3 +121,20 @@ team
 .team img {
     box-shadow: 0 0 20px var(--text);
 }
+/*************
+footer
+**************/
+footer {
+    background: var(--pink);
+}
+footer h2 {
+    font-size: 3rem;
+}
+footer i {
+    font-size: 2rem;
+    color: white;
+}
+footer i:hover {
+    color: var(--text);
+    transition: var(--transition);
+}
