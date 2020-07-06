@@ -10,6 +10,32 @@ $transition: .3s ease;
 $font: 16px;
 $white: #fff;
 /************
+mixini
+************/
+@mixin btn {
+    padding: 10px 40px;
+    border: 2px solid $green;
+    color: $green;
+    background: transparent;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 1rem;
+    &:hover {
+        border: 2px solid $pink;
+        cursor: pointer;
+        color: $pink;
+        transition: $transition;
+    }
+}
+@mixin line {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: $lightGray;
+    margin: 50px 0 20px 0;
+}
+/************
 basic styles
 ************/
 * {
@@ -27,6 +53,17 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: $headings;
+}
+.headings {
+    font-size: 2.5rem;
+}
+.headings::after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 80px;
+    background: $pink;
+    margin: 20px 0 30px 0;
 }
 /************
 aside
@@ -74,4 +111,20 @@ aside {
 ************/
 .main {
     flex: 2;
+    padding: 40px;
+    height: 100vh;
+    overflow: scroll;
+    /*** about ***/
+    .about {
+        button {
+            @include btn;
+        }
+        &::after {
+            @include line;
+        }
+    }
 }
+
+
+
+
