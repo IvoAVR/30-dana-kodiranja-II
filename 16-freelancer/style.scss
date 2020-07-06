@@ -80,6 +80,13 @@ aside {
     align-items: flex-end;
     text-align: right;
     padding-right: 60px;
+    @media(max-width: 768px) {
+        flex: 0 0 100%;
+        text-align: center;
+        align-items: center;
+        padding-right: 0px;
+        height: 90vh;
+    }
     img {
         width: 40%;
         border-radius: 50%;
@@ -114,6 +121,10 @@ aside {
     padding: 40px;
     height: 100vh;
     overflow: scroll;
+    @media(max-width: 768px) {
+        flex: 0 0 100%;
+        overflow: auto;
+    }
     /*** about ***/
     .about {
         button {
@@ -132,6 +143,9 @@ aside {
             .col {
                 flex: 0 0 48%;
                 margin-bottom: 40px;
+                @media(max-width: 768px) {
+                    flex: 0 0 100%;
+                }
                 img {
                     width: 100%;
                     &:hover {
@@ -166,12 +180,18 @@ aside {
                 justify-content: space-between;
                 padding-right: 50px;
                 padding-top: 20px;
+                @media(max-width: 768px) {
+                    padding-right: 0;
+                }
                 input {
                     flex: 0 0 48%;
                     padding: 10px;
                     margin-bottom: 10px;
                     border: none;
                     background: $lightGray;
+                    @media(max-width: 768px) {
+                        flex: 0 0 100%;
+                    }
                 }
                 textarea {
                     flex: 0 0 100%;
