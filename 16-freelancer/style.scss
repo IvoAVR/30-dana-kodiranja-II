@@ -153,6 +153,60 @@ aside {
             @include line;
         }
     }
+    /*** footer ***/
+    footer {
+        padding-bottom: 40px;
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            form {
+                flex: 2;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                padding-right: 50px;
+                padding-top: 20px;
+                input {
+                    flex: 0 0 48%;
+                    padding: 10px;
+                    margin-bottom: 10px;
+                    border: none;
+                    background: $lightGray;
+                }
+                textarea {
+                    flex: 0 0 100%;
+                    padding: 10px;
+                    border: none;
+                    background: $lightGray;
+                }
+                button {
+                    @include btn;
+                    background: $pink;
+                    border: 2px solid $pink;
+                    color: $white;
+                    &:hover {
+                        background: $green;
+                        border: 2px solid $green;
+                        color: $white;
+                    }
+                }
+            }
+            .contact {
+                flex: 1;
+                ul {
+                    list-style: none;
+                    padding-left: 20px;
+                    line-height: 2.5;
+                    li {
+                        font-size: 1.2rem;
+                        i {
+                            color: $pink;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 

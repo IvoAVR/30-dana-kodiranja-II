@@ -92,6 +92,7 @@ aside a:hover {
   overflow: scroll;
   /*** about ***/
   /*** portfolio ***/
+  /*** footer ***/
 }
 .main .about button {
   padding: 10px 40px;
@@ -159,6 +160,71 @@ aside a:hover {
   width: 100%;
   background: #f2f2f2;
   margin: 50px 0 20px 0;
+}
+.main footer {
+  padding-bottom: 40px;
+}
+.main footer .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main footer .row form {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+.main footer .row form input {
+  flex: 0 0 48%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background: #f2f2f2;
+}
+.main footer .row form textarea {
+  flex: 0 0 100%;
+  padding: 10px;
+  border: none;
+  background: #f2f2f2;
+}
+.main footer .row form button {
+  padding: 10px 40px;
+  border: 2px solid #8bebcd;
+  color: #8bebcd;
+  background: transparent;
+  margin-top: 30px;
+  border-radius: 10px;
+  font-size: 1rem;
+  background: #9c7a97;
+  border: 2px solid #9c7a97;
+  color: #fff;
+}
+.main footer .row form button:hover {
+  border: 2px solid #9c7a97;
+  cursor: pointer;
+  color: #9c7a97;
+  transition: 0.3s ease;
+}
+.main footer .row form button:hover {
+  background: #8bebcd;
+  border: 2px solid #8bebcd;
+  color: #fff;
+}
+.main footer .row .contact {
+  flex: 1;
+}
+.main footer .row .contact ul {
+  list-style: none;
+  padding-left: 20px;
+  line-height: 2.5;
+}
+.main footer .row .contact ul li {
+  font-size: 1.2rem;
+}
+.main footer .row .contact ul li i {
+  color: #9c7a97;
 }
 
 /*# sourceMappingURL=style.css.map */
