@@ -1,14 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Shop</title>
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet"> 
-</head>
-<body>
-
-
-</body>
-</html>
+<?php include "partials/header.php"; ?>
+    
+    <!-- header -->
+    <header>
+        <h4>Woman collection</h4>
+        <h2><span>Show</span> Your <br> Personal <span>Style</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Debitis voluptatum necessitatibus cupiditate beatae. Officiis, quos.</p>
+        <button type="button">View collection</button>
+    </header>
+    
+    <!-- featured products -->
+    <section class="container featuredProducts">
+        <h2 class="headings">Feaatured products</h2>
+        <div class="row">
+            <div class="col">
+                <img src="img/products1.jpg" alt="">
+                <h3>Nike</h3>
+                <div class="price">
+                    <p>$129</p>
+                    <p>$100</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="img/products2.jpg" alt="">
+                <h3>Iphone</h3>
+                <div class="price">
+                    <p>$129</p>
+                    <p>$100</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="img/products3.jpg" alt="">
+                <h3>Gloves</h3>
+                <div class="price">
+                    <p>$129</p>
+                    <p>$100</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<?php include "partials/footer.php"; ?>
+    
+    
